@@ -1051,7 +1051,7 @@
 }
 
 .zen-essentials-container {
-  padding-bottom: var(--zen-toolbox-padding);
+  padding-bottom: var(--zen-toolbox-padding) !important;
   overflow: hidden;
   gap: calc(var(--zen-toolbox-padding) - 2px);
   transition: max-height 0.3s ease-out;
